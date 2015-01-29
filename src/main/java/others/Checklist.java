@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package checklist;
+package others;
 
 import java.util.HashSet;
 import java.util.Set;

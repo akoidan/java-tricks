@@ -1,0 +1,22 @@
+apply plugin: 'java';
+apply plugin: 'idea'
+
+sourceCompatibility = '1.7'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    testCompile group: 'junit', name: 'junit', version: '4.+'
+    compile 'javax.mail:mail:1.4'
+    compile "org.springframework:spring-jdbc:2+"
+
+}
+
+tasks.withType(JavaCompile) {
+    options.fork = true
+    options.forkOptions.executable = "/usr/lib/jvm/java-7-openjdk/bin/javac"
+
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.eclipsesource.jaxrs:provider-moxy:2.0" type="repository">
+    <properties maven-id="com.eclipsesource.jaxrs:provider-moxy:2.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/eclipsesource/jaxrs/provider-moxy/2.0/provider-moxy-2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/eclipsesource/jaxrs/jersey-all/2.8/jersey-all-2.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
