@@ -12,14 +12,14 @@ public class User {
 	private UserType type;
 
 	/**
-	 * @return the type
+	 * @return the setType
 	 */
 	public UserType getType() {
 		return type;
 	}
 
 	/**
-	 * @param type the type to set
+	 * @param type the setType to set
 	 */
 	public void setType(UserType type) {
 		this.type = type;

@@ -14,7 +14,7 @@ public class Phone extends Product<Phone> {
 //	
 //	@Override
 //	public int compareTo(Phone t) {
-//		return model.compareTo(t.model);
+//		return setModel.compareTo(t.setModel);
 //	}
 
 	@Override
