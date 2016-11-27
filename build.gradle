@@ -3,7 +3,7 @@ apply plugin: 'idea'
 
 apply plugin: 'groovy'
 
-sourceCompatibility = '1.7'
+sourceCompatibility = '1.8'
 
 repositories {
     mavenCentral()
@@ -19,6 +19,6 @@ dependencies {
 
 tasks.withType(JavaCompile) {
     options.fork = true
-    options.forkOptions.executable = "/usr/lib/jvm/java-7-openjdk/bin/javac"
+    options.forkOptions.executable = "/usr/lib/jvm/java-8-jdk/bin/javac"
 
 }

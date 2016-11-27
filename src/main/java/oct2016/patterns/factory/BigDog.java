@@ -1,0 +1,11 @@
+package oct2016.patterns.factory;
+
+/**
+ * Created by andrew on 11/27/16.
+ */
+public class BigDog extends Dog{
+    public BigDog() {
+        name = "BigDog Skubi du";
+        power = 5;
+    }
+}
