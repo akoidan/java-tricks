@@ -1,6 +1,6 @@
 package spring;
 
-import com.sun.org.apache.bcel.internal.generic.INSTANCEOF;
+
 
 public class Singleton implements ToString{
 

@@ -9,7 +9,7 @@ public class Main {
         ObserverB Alex = new ObserverB();
 
 
-        Handler h = new Handler();
+        Observable h = new Observable();
         h.subscribe(Joey);
         h.subscribe(Alex);
         h.notify();

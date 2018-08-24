@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by andrew on 11/27/16.
  */
-public class Handler {
+public class Observable {
 
     List<Observer> observers = new ArrayList<>();
 
